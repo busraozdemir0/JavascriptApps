@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUTONA BASARAK RASTGELE RENK ÜRETEN UYGULAMA-2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Range tipindeki inputlardan değer alarak rastgele renk üretme -->
+<div class="container">
+    <h3>Rastgele renk üretme uygulaması (range ile)</h3>
+    <label>
+        <input type="range" value="0" min="0" max="255" id="red">
+        <span></span>
+    </label>
+    <label>
+        <input type="range" value="0" min="0" max="255" id="green">
+        <span></span>
+    </label>
+    <label>
+        <input type="range" value="0" min="0" max="255" id="blue">
+        <span></span>
+    </label>
+    <label>
+        <input type="range" value="0,8" min="0" max="1" step="0.01" id="alpha">  <!--alpha değeri-->
+        <span></span>
+    </label>
+</div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
