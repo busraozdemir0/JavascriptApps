@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sıralanabilir(sürükle bırak) Liste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+        integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sürüklenebilir Liste</h1>
+        <div class="items">
+            <div class="item">
+                <span class="text">Sürüklenebilir Liste-1</span>
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="item">
+                <span class="text">Sürüklenebilir Liste-2</span>
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="item">
+                <span class="text">Sürüklenebilir Liste-3</span>
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="item">
+                <span class="text">Sürüklenebilir Liste-4</span>
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="item">
+                <span class="text">Sürüklenebilir Liste-5</span>
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var list = document.querySelector('.items');
+
+        new Sortable(list, {  // Sortable kütüphanesinin cdn'ini ekleyerek sürüklenebilir bir liste yapabiliriz
+            animation: 500
+        });
+    </script>
+</body>
+</html>
