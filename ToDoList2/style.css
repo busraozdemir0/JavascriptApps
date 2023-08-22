@@ -5,7 +5,8 @@
 }
 
 body{
-    background: linear-gradient(to right, #360033, #0b8793);
+   /* background: linear-gradient(to right, #360033, #0b8793); */
+    background: #829299;
     font-family: sans-serif;
 }
 
