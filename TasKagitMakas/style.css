@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');  /*yazı fontu almak için*/
+
+*{
+    margin:0;  /*tüm nesneler için kendiliğinden oluşan margin veya paddingler varsa sıfırlıyoruz*/
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;  /*1 rem: 16px ama bu satır ile 1rem: 10px gibi varsayılıyor*/
+}
+
+body{
+  display: flex;  
+  flex-direction:column; /*içerisindeki elemanları alt alta dizsin*/
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: row; /*içerisindeki elemanları yan yana dizsin*/
+    flex-wrap:wrap; /*resimler yan yana sığmazsa alta devam etsin*/
+    justify-content: space-between; /*resimler sağa ve sola yaslansın*/
+    align-items: center; /*dikeydeki hizalama ortalandı*/
+    width:80%;
+    height:auto;
+    border:thin solid black;
+    border-radius: 2rem 0 2rem 0; 
+    padding: 1rem;
+}
+
+.baslik{
+    color:grey;
+    font-size:5rem;
+    text-align:center;
+    margin: 1rem;
+    font-family: 'Yatra One', cursive;
+}
+
+#container > img{ /*mobilde görüntü bozulmaması için(responsive)*/
+    flex:1 1 10rem; /*büyüme değeri: 1 küçülme değeri: 1 base değeri: 10*/
+    max-width: 30%;
+}
+
+button{
+    margin: 1rem;  
+    padding:1rem;
+    background-color: bisque;
+    border: none;
+    font-size: large;
+    border-radius: 15px;
+
+}
+
+.basarili{
+    color: rgb(0,255,34);
+    font-size: 4rem;
+}
+
+.basarisiz{
+    color: red;
+    font-size: 4cqb;
+}
+
+.berabere{
+    color: rgb(47,0,255);
+    font-size: 4rem;
+}
+
