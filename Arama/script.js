@@ -25,7 +25,7 @@ async function verileriYukle() {
 
     const birlesmisKelimeler = [...new Set(anahtarKelimeler)];
 
-    birlesmisKelimeler.sort(() => Math.random() - 0.5); // kelimelerin yerini değiştirmesi için
+    birlesmisKelimeler.sort(() => Math.random() - 0.5); // önerilen kelimelerin yerini değiştirmesi için
     let sayac = 0;
     birlesmisKelimeler.forEach(kelime => {
         if (sayac < 5) {  // sadece 5 öneri sunulsun
