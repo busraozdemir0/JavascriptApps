@@ -1,0 +1,48 @@
+{
+    "sorular":[
+        {
+            "soru":"Aşağıdakilerden hangisi JavaScript ile açılır pencerede yazdırma fonksiyonudur?",
+            "secenekA":"alert()",
+            "secenekB":"document.write()",
+            "secenekC":"console.log()",
+            "secenekD":"document.querySelector()",
+            "cevap":"secenekA"
+        },
+
+        {
+            "soru":" JavaScript'te bir 'if' ifadesi nasıl yazılır?",
+            "secenekA":"if (i == 5)",
+            "secenekB":"if i == 5 then",
+            "secenekC":"if i = 5 then",
+            "secenekD":"if{i==5}",
+            "cevap":"secenekA"
+        },
+
+        {
+            "soru":" Kullanıcı bir HTML öğesine tıkladığında hangi olay gerçekleşir ?",
+            "secenekA":"dblclick",
+            "secenekB":"onclick",
+            "secenekC":"onmouseover",
+            "secenekD":"onmouseclick",
+            "cevap":"secenekB"
+        },
+
+        {
+            "soru":" Bir HTML öğesinin içeriğini değiştirmek için aşağıdakilerden hangisi doğrudur ?",
+            "secenekA":"document.getElement('yazi').innerHTML = 'Evrensel Kod!';",
+            "secenekB":"#yazi.innerHTML = 'Evrensel Kod!';",
+            "secenekC":"document.get('yazi').inner = 'Evrensel Kod!';",
+            "secenekD":"document.getElementById('yazi').innerHTML = 'Evrensel Kod!';",
+            "cevap":"secenekD"
+        },
+
+        {
+            "soru":" Aşağıdakilerden hangisi JavaScript'in harici veri saklama yapılarından değildir?",
+            "secenekA":"MySql",
+            "secenekB":"JSON",
+            "secenekC":"JavaScript Object",
+            "secenekD":"MongoDB",
+            "cevap":"secenekC"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;  /* görünümünün tamamını kullansın*/
+    overflow:hidden;
+}
+
+#sinav{
+    width:60rem;
+    background-color: rgb(205, 192, 175);
+    border-radius: 1rem;
+    box-shadow:0 0 1rem 0.2rem lightgray;
+    overflow: hidden;
+}
+
+.soruAlani{
+    padding: 4rem;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+ul{
+    list-style: none; /*listenin başında bulunan ufak yuvarlakları kaldırdık*/
+}
+
+ul li{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: rgba(97, 97, 231, 0.656);
+    width: 100%;
+    display: block;
+    border: none; /* kenarlık kaldırdık */
+    padding: 1rem;
+    color: white; /*buton üzerindeki yazı rengi*/
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: inherit;  /* bunun kapsayıcısı hangi yazı fontunu kullanıyorsa onu kullansın */
+}
+
+button:hover{
+    background-color:rgba(85, 85, 202, 0.656);
+}
+
+button:focus{
+    background-color: rgba(72, 72, 172, 0.656);
+    outline: none;
+}
