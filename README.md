@@ -30,9 +30,9 @@ Sepetten Ürün Kaldırma
 
 ### JSON ile Online Sınav Uygulaması
 
-![soru](https://github.com/busraozdemir0/JavascriptApps/OnlineExamApp/Screenshots/soru.png)
+![soru](https://github.com/busraozdemir0/JavascriptApps/blob/main/OnlineExamApp/Screenshots/soru.png)
 
 
-![sonuc](https://github.com/busraozdemir0/JavascriptApps/OnlineExamApp/Screenshots/sonuc.png)
+![sonuc](https://github.com/busraozdemir0/JavascriptApps/blob/main/OnlineExamApp/Screenshots/sonuc.png)
 
 
